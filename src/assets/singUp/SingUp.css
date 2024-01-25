@@ -1,0 +1,111 @@
+.ContainerSing {
+  background-color: rgb(249, 243, 235);
+  padding: 50px 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border: 2px solid silver;
+}
+.textList {
+  border-right: 2px solid silver;
+  margin-left: 70px;
+}
+.textList h2 {
+  font-size: 35px;
+  line-height: 50px;
+  margin-top: 0px;
+  margin-bottom: 40px;
+}
+.textList li {
+  margin-top: 20px;
+}
+
+.containerInput {
+  margin-left: 70px;
+}
+.containerInput li {
+  margin-bottom: 20px;
+}
+.containerInput li input:not(.checkbox) {
+  width: 100%;
+  text-align: center;
+}
+.containerInput input:not(.checkbox) {
+  border: none;
+  height: 25px;
+  border-radius: 5px;
+}
+
+.btnSinUp {
+  display: block;
+  border: none;
+  margin: 0px auto;
+  padding: 15px 25px;
+  border-radius: 25px;
+  background-color: white;
+  margin-bottom: 20px;
+}
+.lineContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.line1 {
+  height: 1px;
+  width: 45%;
+  background-color: silver;
+}
+.line2 {
+  height: 1px;
+  width: 45%;
+  background-color: silver;
+}
+.socialMedia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.socialMedia a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  column-gap: 10px;
+  padding: 10px 25px;
+  margin-top: 10px;
+  background-color: white;
+  border-radius: 25px;
+  line-height: 20px;
+}
+.socialMedia a:nth-child(1) {
+  margin-top: 20px;
+}
+.media {
+  font-size: 30px;
+}
+.facebook {
+  color: blue;
+}
+@media (max-width: 1100px) {
+  .ContainerSing {
+    padding: 50px 20px;
+  }
+  .textList,
+  .containerInput {
+    margin-left: 0px;
+  }
+}
+@media (max-width: 800px) {
+  .ContainerSing {
+    display: flex;
+    flex-direction: column;
+  }
+  .textList {
+    border-right: none;
+    border-bottom: 2px solid silver;
+  }
+}
+@media (max-width: 500px) {
+  .ContainerSing {
+    padding: 50px 20px;
+  }
+}

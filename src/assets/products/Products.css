@@ -1,0 +1,68 @@
+.containerProducts {
+  background-color: white;
+  padding: 50px;
+}
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  padding: 25px;
+  row-gap: 50px;
+  column-gap: 25px;
+  background-color: whitesmoke;
+  margin-bottom: 20px;
+}
+.containerProducts h2 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+.cart {
+  text-align: center;
+}
+.cart img {
+  width: 100%;
+}
+.btnSeeMore {
+  display: flex;
+  justify-content: center;
+}
+.btnSeeMore button {
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 15px;
+  font-size: 20px;
+  background-color: antiquewhite;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+.buttons button {
+  padding: 10px 20px;
+  border: none;
+  background-color: white;
+}
+.buttons button.active:hover {
+  background-color: whitesmoke;
+  border-radius: 5px 5px 0px 0px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.buttons button.active:focus {
+  background-color: whitesmoke;
+  border-radius: 5px 5px 0px 0px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+@media (max-width: 850px) {
+  .products {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 500px) {
+  .products {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

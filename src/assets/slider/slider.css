@@ -1,0 +1,11 @@
+.swiper p {
+  text-align: center;
+  color: rgb(56, 56, 56);
+}
+.swiper img {
+  width: 100%;
+  height: 100%;
+}
+.swiper {
+  margin: 25px 25px !important;
+}

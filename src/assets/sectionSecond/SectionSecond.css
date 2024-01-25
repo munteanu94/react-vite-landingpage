@@ -1,0 +1,55 @@
+.containerSecond {
+  background-color: white;
+  text-align: center;
+}
+.containerSecond h2 {
+  font-size: 40px;
+  padding-top: 30px;
+}
+.Season {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 33px;
+  margin: 0px 50px;
+}
+.Season img {
+  width: 100%;
+}
+.Season a {
+  display: block;
+  padding: 10px 20px;
+  background-color: antiquewhite;
+  max-width: 100px;
+  margin: 20px auto;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.Season a:hover {
+  color: white;
+}
+@media (max-width: 1000px) {
+  .Season {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      "spring summer"
+      "winter winter";
+  }
+  .Season div:nth-child(1) {
+    grid-area: spring;
+  }
+  .Season div:nth-child(2) {
+    grid-area: summer;
+  }
+  .Season div:nth-child(3) {
+    grid-area: winter;
+  }
+}
+@media (max-width: 600px) {
+  .Season {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas:
+      "spring"
+      "summer"
+      "winter";
+  }
+}

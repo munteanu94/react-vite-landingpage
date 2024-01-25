@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+.mainContainer {
+  max-width: 100%;
+  padding: 20px 50px;
+  background-color: rgb(234, 232, 232);
+}
+
+@media (max-width: 600px) {
+  .mainContainer {
+    padding: 20px 0px;
+  }
+}

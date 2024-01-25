@@ -1,0 +1,32 @@
+.sidebar {
+  background-color: whitesmoke;
+  position: absolute;
+  left: -50px;
+  top: 100px;
+  height: 400px;
+  width: 300px;
+  display: none;
+}
+.sidebar ul {
+  display: flex;
+  flex-direction: column;
+}
+.sidebar ul li {
+  text-align: center;
+  padding: 10px;
+}
+.sidebar ul li a {
+  font-size: 20px;
+  width: 100%;
+}
+.sidebar ul li:hover {
+  background-color: silver;
+  cursor: pointer;
+}
+.sidebar .close {
+  position: absolute;
+  right: -270px;
+  top: 10px;
+  width: 100%;
+  font-size: 25px;
+}

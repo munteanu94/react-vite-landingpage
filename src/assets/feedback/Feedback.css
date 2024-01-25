@@ -1,0 +1,25 @@
+.swiper2 {
+  background-color: white;
+  margin: 0 !important;
+}
+.swiper2 h2 {
+  text-align: center;
+  font-size: 40px;
+}
+.slide {
+  background-color: rgb(249, 243, 235);
+  padding: 25px;
+  border-radius: 10px;
+  text-align: center;
+}
+.slide h6 {
+  font-size: 20px;
+  margin: 10px 0px 5px 0px;
+}
+.slide p {
+  margin: 5px 0px;
+}
+.slide div {
+  color: yellow;
+  font-size: 22px;
+}

@@ -1,0 +1,32 @@
+.sectionFirst {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sectionFirst .text {
+  text-align: center;
+}
+@media (max-width: 1000px) {
+  .imgHide {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .sectionFirst {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      "text text"
+      "one four";
+  }
+  .sectionFirst img:nth-child(1) {
+    grid-area: one;
+    margin: 0px auto;
+  }
+  .sectionFirst .text {
+    grid-area: text;
+  }
+  .sectionFirst img:nth-child(4) {
+    grid-area: four;
+  }
+}
