@@ -1,84 +1,84 @@
 [
   {
     "id": 1,
-    "src": "/src/assets/img/cart1.png",
+    "src": "./src/assets/img/cart1.png",
     "title": "Eto V Neck Yellow",
     "price": "Rp. 129.000",
     "category": "Top"
   },
   {
     "id": 2,
-    "src": "/src/assets/img/cart2.png",
+    "src": "./src/assets/img/cart2.png",
     "title": "Macaroon Dry Half",
     "price": "Rp. 139.000",
     "category": "Bottom"
   },
   {
     "id": 3,
-    "src": "/src/assets/img/cart3.png",
+    "src": "./src/assets/img/cart3.png",
     "title": "Wave Stripe Hally",
     "price": "Rp. 130.000",
     "category": "Dress"
   },
   {
     "id": 4,
-    "src": "/src/assets/img/cart4.png",
+    "src": "./src/assets/img/cart4.png",
     "title": "Eve Punching Floral",
     "price": "Rp. 229.000",
     "category": "Set"
   },
   {
     "id": 5,
-    "src": "/src/assets/img/cart5.png",
+    "src": "./src/assets/img/cart5.png",
     "title": "Floral Waffle Tee",
     "price": "Rp. 119.000",
     "category": "Knit"
   },
   {
     "id": 6,
-    "src": "/src/assets/img/cart6.png",
+    "src": "./src/assets/img/cart6.png",
     "title": "Snap Pure Blouse",
     "price": "Rp. 225.000",
     "category": "Outer"
   },
   {
     "id": 7,
-    "src": "/src/assets/img/cart1.png",
+    "src": "./src/assets/img/cart1.png",
     "title": "Eto V Neck Yellow",
     "price": "Rp. 129.000",
     "category": "Top"
   },
   {
     "id": 8,
-    "src": "/src/assets/img/cart2.png",
+    "src": "./src/assets/img/cart2.png",
     "title": "Macaroon Dry Half",
     "price": "Rp. 139.000",
     "category": "Bottom"
   },
   {
     "id": 9,
-    "src": "/src/assets/img/cart3.png",
+    "src": "./src/assets/img/cart3.png",
     "title": "Wave Stripe Hally",
     "price": "Rp. 130.000",
     "category": "Dress"
   },
   {
     "id": 10,
-    "src": "/src/assets/img/cart4.png",
+    "src": "./src/assets/img/cart4.png",
     "title": "Eve Punching Floral",
     "price": "Rp. 229.000",
     "category": "Set"
   },
   {
     "id": 11,
-    "src": "/src/assets/img/cart5.png",
+    "src": "./src/assets/img/cart5.png",
     "title": "Floral Waffle Tee",
     "price": "Rp. 119.000",
     "category": "Knit"
   },
   {
     "id": 12,
-    "src": "/src/assets/img/cart6.png",
+    "src": "./src/assets/img/cart6.png",
     "title": "Snap Pure Blouse",
     "price": "Rp. 225.000",
     "category": "Outer"
