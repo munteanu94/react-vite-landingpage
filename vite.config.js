@@ -3,6 +3,6 @@ import react from "@vitejs/plugin-react";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/react-vite-landingpage/",
+  base: "/react-vite-landingpage/dist/",
   plugins: [react()],
 });
