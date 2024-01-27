@@ -10,7 +10,7 @@ import Footer from "./assets/footer/Footer.jsx";
 import "./index.css";
 
 export default function App() {
-  const newLocal = <Products />;
+  // const newLocal = <Products />;
   return (
     <div className="mainContainer">
       <Header />
