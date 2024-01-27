@@ -17,7 +17,7 @@ export default function App() {
       <SectionFirst />
       <SectionSecond />
       <Sales />
-      <Products basename="/react-vite-landingpage/" />
+      <Products basename={import.meta.env.BASE_URL} />
       <Colections />
       <Feedback />
       <Sing />
