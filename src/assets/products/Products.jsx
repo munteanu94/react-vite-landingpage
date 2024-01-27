@@ -1,6 +1,6 @@
 import "./Products.css";
 import { FaArrowRightLong } from "react-icons/fa6";
-import images from "../images.json";
+import images from "./images.json";
 import { useState } from "react";
 
 export default function Products() {
