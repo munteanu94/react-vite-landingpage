@@ -64,7 +64,7 @@ export default function Products() {
         {items.map((record) => {
           return (
             <div className="cart" key={record.id}>
-              <img src={record.src} alt="Products" />
+              <img src={record.src} alt="Products" key={record.id} />
               <p>{record.title}</p>
               <p>{record.price}</p>
             </div>
